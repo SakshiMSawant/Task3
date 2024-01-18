@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(11, 15, 12);
+            padding: 105px;
+            padding-left:40%;
+            display: flex;
+        }
+        .card{
+            background-color: #fffff0;
+            width: 300px; 
+            height: auto;
+            border-radius: 7px;
+            padding: 0 0 34px 0;
+            margin: 4px;
+        }
+        
+        .image{
+            height: 200px;
+            padding: 5px;
+        }
+        .image img{
+            border-radius: 7px;
+        }
+        .content{
+            padding: 7px 13px; 
+            font-family: "Roboto Slab", serif;
+            font-size: 20px;
+        }
+       
+        .content p{
+          
+            font-size: 15px;
+            color: rgb(20, 20, 20);
+            text-align: center;
+            margin-bottom: 10px ;
+        }
+        .capsules{
+            padding: 0 30px 0 12px;
+            margin-top: -20px;
+           margin-left: 60px;
+
+        }
+        .capsules span{
+            border: 1px solid rgb(49, 150, 175);
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 15px;
+            font-family: sans-serif; 
+            margin-right: 20px;
+            color: rgb(49, 150, 175);
+            
+
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover{
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card"> 
+        <div class="image">
+            <img width="290" src="https://cakemehometonight.com/wp-content/uploads/2022/07/Ice-Cream-Cone-Cupcakes-FI.jpg" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Flavours</span>
+            <span>Types</span>
+        </div>
+        <br>
+        <div class="content">
+            <h2 align="center">Ice Cream</h2>
+            <br>
+            <p>Ice cream is a frozen dessert made from cream and ice, with added flavors and sweeteners. This mixture is quickly frozen while it is stirred continuously in a mixer, so that large ice crystals do not form. </div>
+        <div class="button">
+            <button>Read More</button>
+        </div> 
+
+    </div>
+</body>
+</html>
